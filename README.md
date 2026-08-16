@@ -119,9 +119,9 @@ Archive content must be separated from presentation code. Adding a work item sho
 
 ### Current implementation status
 
-The first complete static page is implemented. It currently renders 47 public records: 15 stories, 29 videos, one Instagram reel, and two public projects. The desktop and mobile layouts, navigation, archive expansion controls, and browser console have been verified locally.
+The first complete static page is implemented and live at [rttjogja.github.io](https://rttjogja.github.io). It currently renders 47 public records: 15 stories, 29 videos, one Instagram reel, and two public projects. The desktop and mobile layouts, navigation, archive expansion controls, and browser console have been verified.
 
-Publishing is not active yet because this local repository still needs to be connected to `RTTJogja/RTTJogja.github.io` and configured as a GitHub Pages branch source.
+The public source repository is [RTTJogja/RTTJogja.github.io](https://github.com/RTTJogja/RTTJogja.github.io). GitHub Pages publishes the root of `main`, and the first production deployment completed successfully on 16 August 2026.
 
 ## Visual Direction
 
@@ -191,12 +191,12 @@ This workflow deliberately separates **content discovery** from **site deploymen
 ## Publishing Requirements
 
 - The production URL is `https://rttjogja.github.io`.
-- The eventual GitHub repository must be `RTTJogja/RTTJogja.github.io` for the GitHub organization site URL to work.
+- The GitHub repository is `RTTJogja/RTTJogja.github.io`.
 - `main` is the source of truth for the live website.
 - GitHub Pages must use **Deploy from a branch**, with `main` and `/(root)` selected as the publishing source.
 - A push to `main` automatically publishes the current root static files without a custom GitHub Actions workflow.
 - Direct pushes to `main` are allowed to keep the AFK Research editing workflow simple. Pull requests may still be used when review is useful.
-- The local repository does not yet have a Git remote configured, so repository connection and Pages configuration are still required.
+- The local repository tracks `origin/main` at the public RTT Jogja GitHub organization repository.
 
 ## Scope
 
