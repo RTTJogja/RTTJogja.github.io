@@ -111,9 +111,12 @@ The first release will be a build-free static website using:
 - `script.js` for archive rendering, newest-first sorting, mobile navigation, and show-all controls;
 - `data.js` as the simple version-controlled archive collection;
 - `assets/rtt-jogja-logo.jpg` for the official profile logo;
+- `.afk-research/` for essential AFK Research project metadata and durable Brain records;
 - a root `.nojekyll` file so GitHub Pages serves the static files without Jekyll processing.
 
 There will be no frontend framework, package manager, generated build directory, database, or required local build command. A contributor should be able to understand and edit the website directly from the repository files.
+
+The `.afk-research/` directory is essential project data. It must remain version-controlled and must not be added to `.gitignore`.
 
 Archive content must be separated from presentation code. Adding a work item should normally require editing only the archive data file rather than duplicating HTML markup.
 
