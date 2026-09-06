@@ -738,7 +738,7 @@ a {
 }
 
 .social-grid {
-  grid-template-columns: minmax(0, 520px);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .project-grid {
@@ -935,7 +935,7 @@ a {
   }
 
   .social-grid {
-    grid-template-columns: minmax(0, 520px);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .videos-section .archive-card:nth-child(3n + 2),

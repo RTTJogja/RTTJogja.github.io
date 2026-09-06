@@ -122,7 +122,7 @@ Archive content must be separated from presentation code. Adding a work item sho
 
 ### Current implementation status
 
-The first complete static page is implemented and live at [rttjogja.github.io](https://rttjogja.github.io). It currently renders 47 public records: 15 stories, 29 videos, one Instagram reel, and two public projects. The desktop and mobile layouts, navigation, archive expansion controls, and browser console have been verified.
+The static archive contains 50 public records: 15 stories, 29 YouTube videos, four Instagram reels, and two public projects. The Instagram inventory was checked against the official profile and each reel's caption and publication date on 6 September 2026. All four public posts were reels; the three newer reels were published on 22 August, 29 August, and 5 September 2026. Instagram reels remain in their own section, newest first, with links to the original videos. The first reel has no published caption, so its existing descriptive title is retained.
 
 The public source repository is [RTTJogja/RTTJogja.github.io](https://github.com/RTTJogja/RTTJogja.github.io). GitHub Pages publishes the root of `main`, and the first production deployment completed successfully on 16 August 2026.
 
