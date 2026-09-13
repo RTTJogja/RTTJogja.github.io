@@ -85,6 +85,14 @@
     footer.append(footerText, arrow);
     body.append(footer);
 
+    if (item.downloadPage) {
+      const download = document.createElement("a");
+      download.href = item.downloadPage;
+      download.className = "card-download";
+      download.textContent = "Download video & caption ↓";
+      body.append(download);
+    }
+
     article.append(media, body);
     return article;
   }

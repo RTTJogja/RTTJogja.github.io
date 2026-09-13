@@ -94,7 +94,7 @@ Archive entries are displayed as visual cards in a responsive grid. A card shoul
 
 Cards should still work when no reusable image is available. In that case, use a consistent source-specific visual treatment rather than inventing an image. On mobile, cards should form an easy-to-read single-column list; wider screens may use multiple columns.
 
-Video entries are listings only. The website does not embed or play videos. Each video listing should show its published title, available date and summary information, source channel, and a link that opens the original YouTube video.
+Video entries are listings by default. As explicitly authorized on 13 September 2026, the Busy and Useful entry also links to `busy-and-useful.html`, which provides the original downloaded MP4 and suggested Indonesian Instagram caption under `assets/videos/`. The suggested caption is not a published archive record. This download page is an exception to the initial no-rehosting scope and English-only copy rule; its interface remains English. The website does not embed or play videos. Each video listing should show its published title, available date and summary information, source channel, and a link that opens the original YouTube video.
 
 The original public URL remains the canonical source. The site is a record of what has already been published, not an attempt to reconstruct a separate authoritative event history.
 

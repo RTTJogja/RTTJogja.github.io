@@ -124,7 +124,7 @@ window.RTT_CONTENT = {
   videos: [
     { title: "Vision and Trust in Entrepreneurship", date: "2026-07-29", source: "RTT Jogja YouTube", url: "https://www.youtube.com/shorts/EzQG8xAeOrY", image: "https://i.ytimg.com/vi/EzQG8xAeOrY/hqdefault.jpg" },
     { title: "How Do You Know You're on the Right Path — RTT 10 July", date: "2026-07-10", source: "Bukit Vista Careers", url: "https://www.youtube.com/shorts/H9PJb3SeHyo", image: "https://i.ytimg.com/vi/H9PJb3SeHyo/hqdefault.jpg" },
-    { title: "The Difference Between Being Busy and Being Useful — RTT 03 July", date: "2026-07-10", source: "Bukit Vista Careers", url: "https://www.youtube.com/shorts/wYSeiljj-GA", image: "https://i.ytimg.com/vi/wYSeiljj-GA/hqdefault.jpg" },
+    { title: "The Difference Between Being Busy and Being Useful — RTT 03 July", downloadPage: "busy-and-useful.html", date: "2026-07-10", source: "Bukit Vista Careers", url: "https://www.youtube.com/shorts/wYSeiljj-GA", image: "https://i.ytimg.com/vi/wYSeiljj-GA/hqdefault.jpg" },
     { title: "Semiconductors and the Future — RTT 20 Jun", date: "2026-06-22", source: "Bukit Vista Careers", url: "https://www.youtube.com/shorts/UTee7UPglG8", image: "https://i.ytimg.com/vi/UTee7UPglG8/hqdefault.jpg" },
     { title: "A Friend of Bryan — RTT 13 Jun", date: "2026-06-22", source: "Bukit Vista Careers", url: "https://www.youtube.com/shorts/fT9H56slwfs", image: "https://i.ytimg.com/vi/fT9H56slwfs/hqdefault.jpg" },
     { title: "Are You Solving the Right Problem? — RTT 5 Jun", date: "2026-06-07", source: "Bukit Vista Careers", url: "https://www.youtube.com/shorts/sEz3xAhLhgY", image: "https://i.ytimg.com/vi/sEz3xAhLhgY/hqdefault.jpg" },
